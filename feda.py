@@ -13,3 +13,8 @@ def count_null(df):
 def distribuition(df, target):
     plt.figure(figsize=(9, 8))
     sns.distplot(df[target], color='g', bins=100, hist_kws={'alpha': 0.4})
+    
+
+def get_types(df):
+    return list(set(df.dtypes.tolist()))
+
