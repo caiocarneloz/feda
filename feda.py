@@ -1,4 +1,3 @@
-import time
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -23,7 +22,6 @@ def distribution(df, target):
     
     plt.figure(figsize=(9, 8))
     sns.distplot(df[target], color='g', bins=100, hist_kws={'alpha': 0.4})
-    time.sleep(3)
 
 def list_types(df):
     print('\n\n - Type List')
