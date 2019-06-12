@@ -61,6 +61,5 @@ def report(df, target):
     list_columns_by_type(df)
     list_feature_corr(df,target)
 
-df = pd.read_csv('/home/caiocarneloz/Dropbox/BCC/DataScience/Kaggle/house_prices/train.csv')
-#df = pd.read_csv('C:\\Users\\Caio Carneloz\\Dropbox\\BCC\\DataScience\\Kaggle\\house_prices\\train.csv')
+df = pd.read_csv('path/train.csv')
 report(df, 'SalePrice')
