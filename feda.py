@@ -3,6 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 def initialize():
+    print('FEDA')
     plt.style.use('bmh')
     print(' - Fast Exploratory Data Analysis REPORT (FEDA)')
 
